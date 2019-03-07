@@ -1,0 +1,14 @@
+{
+  "name": "virta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "masnad",
+  "license": "ISC",
+  "dependencies": {
+    "fraction.js": "^4.0.12"
+  }
+}
