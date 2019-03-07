@@ -16,7 +16,7 @@ function decompose(no){
 		var nextDenominator = Math.ceil(f1.d /f1.n); 
 		var nextFraction = new Fraction("1/" + nextDenominator);
 		var remainingFraction = new Fraction(f1 - nextFraction);
-		result = ["1/" + nextDenominator].concat(decompose(remainingFraction.n + "/" + remainingFraction.d, nextDenominator));
+		result = ["1/" + nextDenominator].concat(decompose(remainingFraction.n + "/" + remainingFraction.d));
 		return result;
 
 	}
